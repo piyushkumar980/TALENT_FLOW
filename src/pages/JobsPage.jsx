@@ -426,7 +426,7 @@ export default function JobsPage() {
             useToastStore.getState().push?.(`Updated "${updated.title}" (temp)`, "ok");
           }}
         />
-      )} 
+      )}
     </div>
   );
-}
+}   
